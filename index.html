@@ -11,29 +11,32 @@
             <a href="#" class="header__logo"><span>A</span>.Леонова</a>
             <nav class="header__menu">
                 <ul>
-                    <li class="menu__list"><a href="#" class="menu__link">Обо мне</a></li>
-                    <li class="menu__list"><a href="#"class="menu__link">Мои работы</a></li>
-                    <li class="menu__list"><a href="#"class="menu__link">Инструменты</a></li>
-                    <li class="menu__list"><a href="#"class="menu__link">Контакты</a></li>
+                    <li class="menu__list"><a href="#about" class="menu__link">Обо мне</a></li>
+                    <li class="menu__list"><a href="#works"class="menu__link">Мои работы</a></li>
+                    <li class="menu__list"><a href="#tools"class="menu__link">Инструменты</a></li>
+                    <li class="menu__list"><a href="#footer"class="menu__link">Контакты</a></li>
                 </ul>
             </nav>
             <div class="header__social">
-                <a href="#"><img src="images/social/vk.svg" alt="VK"></a>
-                <a href="#"><img src="images/social/fb.svg" alt="FB"></a>
-                <a href="#"><img src="images/social/twitter.svg" alt="Twitter"></a>
-                <a href="#"><img src="images/social/insta.svg" alt="Instagram"></a>
-                <a href="#"><img src="images/social/ok.svg" alt="OK"></a>
+                <a href="#" class="header__social__link"><img src="images/social/vk.svg" alt="VK"></a>
+                <a href="#" class="header__social__link"><img src="images/social/fb.svg" alt="FB"></a>
+                <a href="#" class="header__social__link"><img src="images/social/twitter.svg" alt="Twitter"></a>
+                <a href="#" class="header__social__link"><img src="images/social/insta.svg" alt="Instagram"></a>
+                <a href="#" class="header__social__link"><img src="images/social/ok.svg" alt="OK"></a>
             </div>
         </header>
         <section class="promo">
-            <h1 class="promo__title">Веб - Дизайнер</h1>
-            <p class="promo__caption">создание сайтов и мобильных<br>приложений</p>
+            <div class="promo-cover">
+                <h1 class="promo__title">Веб - Дизайнер</h1>
+                <p class="promo__caption">создание сайтов и мобильных<br>приложений</p>
+            </div>
         </section>
-        <section class="about">
+        <section id="about" class="about">
             <h2 class="about__title">Обо мне</h2>
             <p class="about__description">Здраствуйте, меня зовут Анна Леонова.<br>Я разрабатываю адаптивный дизайн сайтов, мобильных приложений, дизайн полиграфии.</p>
             <div class="about__process">
                 <p class="about__process-title">Работаю по четко выстроенному дизайн-процессу:</p>
+                <hr>
                 <ul>
                     <li class="about__list">погружение в задачу</li>
                     <li class="about__list">исследование (изучение конкурентов)</li>
@@ -43,62 +46,64 @@
                 </ul>
             </div>
         </section>
-        <section class="works">
-            <h2 class="works__title">Мои работы</h2>
-            <div class="works__blocks">
-                <div class="work__block">
-                    <a href="#"><img src="images/works/work_1.png" alt="Work 1"></a>
-                </div>
-                <div class="work__block">
-                    <a href="#"><img src="images/works/work_2.png" alt="Work 2"></a>
-                </div>
-                <div class="work__block">
-                    <a href="#"><img src="images/works/work_3.png" alt="Work 3"></a>
+        <section id="works" class="works">
+            <div class="works-cover">
+                <h2 class="works__title">Мои работы</h2>
+                <div class="works__blocks">
+                    <div class="work__block">
+                        <a href="#"><img src="images/works/work_1.jpg" alt="Work 1"></a>
+                    </div>
+                    <div class="work__block">
+                        <a href="#"><img src="images/works/work_2.jpg" alt="Work 2"></a>
+                    </div>
+                    <div class="work__block">
+                        <a href="#"><img src="images/works/work_3.jpg" alt="Work 3"></a>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="tools">
+        <section id="tools" class="tools">
             <h2 class="tools__title">Мои инструменты</h2>
             <div class="tools__blocks">
-                <figure class="tool__block">
-                    <img src="images/tools/AP.png" alt="Adobe Photoshop">
+                <figure class="tools__block">
+                    <img src="images/tools/AP.jpg" alt="Adobe Photoshop">
                     <figcaption>Adobe Photoshop</figcaption>
                 </figure>
-                <figure class="tool__block2">
-                    <img src="images/tools/AAE.png" alt="Adobe After Effects">
+                <figure class="tools__block">
+                    <img src="images/tools/AAE.jpg" alt="Adobe After Effects">
                     <figcaption>Adobe After Effects</figcaption>
                 </figure>
-                <figure class="tool__block3">
-                    <img src="images/tools/AI.png" alt="Adobe Illustrator">
+                <figure class="tools__block">
+                    <img src="images/tools/AI.jpg" alt="Adobe Illustrator">
                     <figcaption>Adobe Illustrator</figcaption>
                 </figure>
-                <figure class="tool__block4">
-                    <img src="images/tools/LR.png" alt="Adobe Lightroom">
+                <figure class="tools__block">
+                    <img src="images/tools/LR.jpg" alt="Adobe Lightroom">
                     <figcaption>Adobe Lightroom</figcaption>
                 </figure>
-                <figure class="tool__block5">
-                    <img src="images/tools/F.png" alt="Figma">
+                <figure class="tools__block">
+                    <img src="images/tools/F.jpg" alt="Figma">
                     <figcaption>Figma</figcaption>
                 </figure>
             </div>
         </section>
-        <footer class="footer">
+        <footer id="footer" class="footer">
             <h2 class="footer__title">Контакты</h2>
             <div class="footer__contacts">
-                <a href="mailto:leonovaann2014@gmail.com">leonovaann2014@gmail.com</a>
+                <a href="mailto:leonovaann2014@gmail.com" class="footer__link">leonovaann2014@gmail.com</a>
                 <br>
-                <a href="tel:89517106345">+79517106345</a>
+                <a href="tel:89517106345" class="footer__link">+79517106345</a>
             </div>
             <hr>
             <div class="footer__copyright">
                 <p>© Анна Леонова 2019</p>
             </div>
             <div class="footer__social">
-                <a href="#"><img src="images/social/vk.svg" alt="VK"></a>
-                <a href="#"><img src="images/social/fb.svg" alt="FB"></a>
-                <a href="#"><img src="images/social/twitter.svg" alt="Twitter"></a>
-                <a href="#"><img src="images/social/insta.svg" alt="Instagram"></a>
-                <a href="#"><img src="images/social/ok.svg" alt="OK"></a>
+                <a href="#" class="footer__social__link"><img src="images/social/vk.svg" alt="VK"></a>
+                <a href="#" class="footer__social__link"><img src="images/social/fb.svg" alt="FB"></a>
+                <a href="#" class="footer__social__link"><img src="images/social/twitter.svg" alt="Twitter"></a>
+                <a href="#" class="footer__social__link"><img src="images/social/insta.svg" alt="Instagram"></a>
+                <a href="#" class="footer__social__link"><img src="images/social/ok.svg" alt="OK"></a>
             </div>
         </footer>
     </body>

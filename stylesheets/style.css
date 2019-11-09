@@ -8,88 +8,71 @@
     padding: 0;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: Leftonade;
     font-weight: 100;
 }
 
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
 h2 {
-    font-size: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     text-align: center;
 }
 
-.header {
-    position: absolute;
-    background-color: rgba(88, 87, 87, 0.71);
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 79px;
-    display: flex;
-
+.bg-custom {
+    background: linear-gradient(270deg, #2D3132 0%, #594F7A 100%);
 }
 
 .header__logo {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     letter-spacing: 1.32px;
     text-decoration: none;
 }
 
 .header__logo:hover {
-    color: #ff003e;
+    color: #ff003e !important;
 }
 
 .header__logo span {
     color: #ff003e;
-    font-size: 36px;
+    font-size: 2rem;
     letter-spacing: 1.98px;
-}
-
-.header__menu {
-    display: flex;
-    list-style-type: none;
-    padding: 18px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.header__social {
-    padding-left: 80px;
-    padding: 18px;
-}
-
-.header__social {
-    padding-left: 80px;
-    padding: 18px;
-}
-
-.header__social__link{
-    padding: 10px;
 }
 
 .menu__list {
     display: inline;
-    font-size: 18px;
-    padding-left: 60px;
-    padding-right: 60px;
+    font-size: 1.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .menu__link {
-    color: white;
-    text-decoration: none;
+    color: white !important;
 }
 
 .menu__link:hover {
-    color: #ff003e;
+    color: #ff003e !important;
 }
 
 .promo {
-    background: url(../images/promo.png) center no-repeat #1c1c1c;
     text-align: center;
+    background: url(../images/promo.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .promo-cover {
@@ -99,18 +82,18 @@ h2 {
 
 .promo__title {
     text-shadow: 0 3px 20px rgba(153, 255, 212, 0.25);
-    font-size: 72px;
+    font-size: 4.5rem;
     color: white;
     color: #99ffd4;
-    padding-top: 204px;
+    padding-top: 13rem;
 }
 
 .promo__caption {
     text-shadow: 0 3px 20px rgba(153, 255, 212, 0.25);
     color: #99ffd4;
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: 400;
-    padding-top: 34px;
+    padding-top: 2rem;
 }
 
 .about {
@@ -118,8 +101,8 @@ h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
     letter-spacing: 0.01em;
     text-align: center;
 }
@@ -129,12 +112,12 @@ h2 {
 }
 
 .about__description {
-    font-size: 18px;
-    padding-bottom: 30px;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
 }
 
 .about__process {
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
 }
 
 .about__process ul {
@@ -155,7 +138,11 @@ h2 {
 }
 
 .works {
-    background: url(../images/works_desktop.jpg) center no-repeat;
+    background: url(../images/works_desktop.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .works-cover {
@@ -176,6 +163,7 @@ h2 {
 }
 
 .work__block {
+    display: none;
     background-color: #e7e0ff;
     padding: 20px;
     margin: 20px;
@@ -195,22 +183,23 @@ h2 {
 
 .tools__block {
     margin: 20px;
+    flex-basis: 120px;
 }
 
 .tools__blocks figcaption {
     text-align: center;
     color: #9d9999;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: 0.16px;
-    line-height: 23.47px;
+    line-height: 1.4rem;
 }
 
 .footer {
     text-align: center;
     background: linear-gradient(270deg, #2E2D31 0%, #594F7A 100%);
-    height: 361px;
+    min-height: 400px;
     color: #99ffd4;
 }
 
@@ -220,11 +209,11 @@ h2 {
 
 .footer__contacts {
     font-family: Roboto;
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 }
 
 .footer__link {
-    line-height: 40px;
+    line-height: 2.5rem;
     text-decoration: none;
 }
 
@@ -238,7 +227,7 @@ h2 {
 
 .footer__copyright {
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 0.9rem;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -268,56 +257,63 @@ h2 {
     width: 1140px;
 }
 
-.mini-menu {
-    display: block;
+#carouselExampleControls {
+    padding: 90px 16px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 30px;
+    width: 30px;
+    background-size: 50%, 50%;
+    border-radius: 50%;
+    background-color: black;
 }
 
 @media screen and (max-width: 767px) {
+    html {
+        font-size: 14px;
+    }
+
     body {
         font-family: Leftonade;
         font-weight: 100;
     }
 
-    .header__menu {
-        display: none;
-    }
-
-    .header__logo {
-        width: 50%;
-        padding: 15px;
-    }
-
-    .mini-menu {
-        margin-left: auto;
-        padding: 15px;
-    }
-
     .promo__title {
-        font-size: 36px;
+        font-size: 3rem;
     }
 
-    .promo__caption {
-        font-size: 24px;
+    .promo-cover {
+        height: 100vh;
+        padding: 1rem;
     }
 
     .about {
-        font-size: 14px;
-    }
-
-    .about__description {
-        font-size: 14px;
+        height: 100vh;
+        padding: 1rem;
     }
 
     .works {
         background: url(../images/works.jpg) center;
     }
 
-    .work__block img {
-        width: 200px;
+    .works-cover {
+        height: 100vh;
+        padding: 10% 0;
     }
 
     .about__line {
         width: 250px;
+    }
+
+    .tools {
+        height: 100vh;
+        padding: 5% 0;
+    }
+
+    .footer {
+        height: 100vh;
+        padding: 20% 0;
     }
 
     .footer__line {
@@ -344,22 +340,17 @@ h2 {
         display: none;
     }
 
-    .mini-menu {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .header {
         align-items: center;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .header__logo {
-        padding-right: 100px;
+    .work__block {
+        display: block;
     }
 
-    .mini-menu {
+    #carouselExampleControls {
         display: none;
     }
 

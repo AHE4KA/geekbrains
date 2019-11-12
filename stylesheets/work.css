@@ -1,0 +1,65 @@
+.preview {
+    text-align: center;
+    background: url(../images/works/work_2/banner.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.preview-cover {
+    background-color: rgba(28, 28, 28, 0.7);
+    min-height: 927px;
+    padding: 2rem 10%;
+}
+
+.preview__title {
+    color: white;
+}
+
+.preview__caption {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    color: white;
+    padding: 2rem 10% 0;
+}
+
+.preview__image {
+    padding-top: 2rem;
+    max-width: 80%;
+}
+
+.preview__caption span {
+  font-size: 1.4rem;
+}
+
+.panorama {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #EBD2CD 100%), #C4C4C4;
+}
+
+.panorama__image {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+
+@media screen and (max-width: 767px) {
+    .promo__title {
+        font-size: 3rem;
+    }
+
+    .preview-cover {
+        height: 100vh;
+        padding: 2rem 5%;
+    }
+
+    .preview__image {
+        max-width: 100%;
+    }
+}

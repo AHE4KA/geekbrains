@@ -1,0 +1,58 @@
+.bg-custom {
+    background: linear-gradient(270deg, #2D3132 0%, #594F7A 100%);
+}
+
+.header__logo {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1.32px;
+    text-decoration: none;
+}
+
+.header__logo:hover {
+    color: #ff003e !important;
+}
+
+.header__logo span {
+    color: #ff003e;
+    font-size: 2rem;
+    letter-spacing: 1.98px;
+}
+
+.menu__list {
+    display: inline;
+    font-size: 1.2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.menu__link {
+    color: white !important;
+}
+
+.menu__link:hover {
+    color: #ff003e !important;
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+}

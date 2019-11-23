@@ -1,6 +1,6 @@
 .promo {
     text-align: center;
-    background: url(../images/promo.png) no-repeat center center fixed;
+    background: url(../images/promo.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -8,7 +8,7 @@
 }
 
 .promo-cover {
-    background-color: rgba(28, 28, 28, 0.7);
+    background-color: rgba(28, 28, 28, 0.75);
     min-height: 626px;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .works-cover {
-    background-color: rgba(28, 28, 28, 0.7);
+    background-color: rgba(28, 28, 28, 0.75);
     min-height: 480px;
 }
 

@@ -29,6 +29,35 @@ h2 {
     text-align: center;
 }
 
+.icon-link {
+    color: #fff;
+}
+
+.icon-link:hover {
+    color: red;
+}
+
+.shadow__neon {
+    box-shadow: 0px 4px 20px #D83C4B, 0px 4px 20px #5B53C7;
+}
+
+.shadow__emerald {
+    box-shadow: 0px 4px 20px #33ad09, 0px 4px 20px #1100f3;
+}
+
+.shadow__pink {
+    box-shadow: 0px 4px 20px #c75b65, 0px 4px 20px #766cf5;
+}
+
+.shadow__blue {
+    box-shadow: 0px 4px 20px #aeefee, 0px 4px 20px #2010e2;
+}
+
+.work__block:hover {
+    transform: scale(1.05);
+    transition: transform 0.4s;
+}
+
 @media screen and (max-width: 767px) {
     html {
         font-size: 14px;

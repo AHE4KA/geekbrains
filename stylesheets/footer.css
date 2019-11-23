@@ -34,8 +34,8 @@
     padding-bottom: 20px;
 }
 
-.footer__social__link{
-    padding: 10px;
+.footer__social__link:hover {
+    color: #fff;
 }
 
 .footer__line {

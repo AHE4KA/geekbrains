@@ -1,0 +1,4 @@
+User-agent: *
+
+Sitemap: https://cloud-design.ru/sitemap.xml
+Host: https://cloud-design.ru/
